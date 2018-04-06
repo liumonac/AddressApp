@@ -23,7 +23,7 @@
 	
 		<mkdir dir="project" />
 		<copy todir="project">
-			<fileset dir="/Users/Tsuruko/eclipse-workspace/AddressApp">
+			<fileset dir="C:\Users\mliu\eclipse-workspace\AddressApp">
 				<include name="src/**" />
 			</fileset>
 		</copy>
@@ -51,7 +51,7 @@
 			</fileset>
 		</copy>
 	
-		<javac includeantruntime="false" source="1.8" target="1.8" srcdir="build/src" destdir="build/classes" encoding="UTF-8">
+		<javac includeantruntime="false" source="1.8" target="1.8" srcdir="build/src" destdir="build/classes" encoding="Cp1252">
 			<classpath>
 				<fileset dir="build/libs">
 					<include name="*"/>
